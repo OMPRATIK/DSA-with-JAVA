@@ -48,7 +48,7 @@ public class BFS {
         }
     }
     public static void bfsUtil(ArrayList<Edge> graph[],int ver,boolean vis[]) {
-        Queue<Integer> q = new LinkedList<>();     
+        Queue<Integer> q = new LinkedList();     
         q.add(ver);
         while(!q.isEmpty()) {
             int curr = q.remove();

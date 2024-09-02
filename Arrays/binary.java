@@ -1,5 +1,5 @@
 public class binary {
-    public static int binary(int numbers[], int key){
+    public static int binarySearch(int numbers[], int key){
         int start=0 , end = numbers.length-1;
         
         while(start<=end){
@@ -10,7 +10,6 @@ public class binary {
         }
         if(numbers[mid] < key){
             start = mid+1;
-
         }
         else{
             end =mid -1;
@@ -21,8 +20,7 @@ public class binary {
     public static void main(String args[]){
         int a[]={2};
         int key = 2;
-        binary(a,key);
-        System.out.print("index for key is :"+binary(a,key));
+        System.out.print("index for key is :"+binarySearch(a,key));
 
     }
     

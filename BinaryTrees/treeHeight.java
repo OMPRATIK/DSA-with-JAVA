@@ -38,7 +38,7 @@ public class treeHeight {
         int lh = height(root.left);
         int rightDiam = diam(root.right);
         int rh = height(root.right);
-        int selfDiam = lh + rh +1; // diameter that passes through the root
+        int selfDiam = lh + rh + 1; // diameter that passes through the root
         return Math.max(selfDiam,Math.max(leftDiam,rightDiam));
     }
     // DIAMETER OF A TREE  

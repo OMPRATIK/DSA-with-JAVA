@@ -1,7 +1,7 @@
 import java.util.*;
 public class chocoala {
     public static void main(String[] args) {
-        int n = 4;//rows
+        int n = 4;//rows    
         int m = 6;//columns
         Integer costVer[] = {2,1,3,1,4}; // m-1
         Integer costHor[] = {4,1,2}; //n-1

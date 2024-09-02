@@ -27,7 +27,7 @@ class BuildTree {
         }
         public static void preorder(Node root) {
             if(root == null) {
-                System.out.print(-1 + " ");
+                // System.out.print(-1 + " ");
                 return;
             }
                 
@@ -84,10 +84,10 @@ class BuildTree {
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
         //System.out.println(root.data);
-        //tree.preorder(root);
-        //tree.inorder(root);
-        //tree.postorder(root);
-        tree.levelorder(root);                  
+        // tree.preorder(root);System.out.println();
+        // tree.inorder(root);System.out.println();
+        // tree.postorder(root);
+         tree.levelorder(root);                  
 
     }
 }
